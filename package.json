@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-transit-land",
+  "version": "0.1.0",
+  "description": "Transitland MCP — global GTFS aggregator",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "transit-land"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-transit-land"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
